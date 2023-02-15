@@ -1,0 +1,75 @@
+$column-item-border:1px solid #ec7979;
+$column-info-color:#bdbdbd;
+$border-bottom:2px solid #bdbdbd;
+
+
+
+
+.container-input {
+  max-width: 1170px;
+  max-height: 622px;
+}
+
+.row__column {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin-left: 169px;
+}
+
+.column__title {
+  font-size: 2.26rem;
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+.column__item {
+  width: 10.625rem;
+  border: $column-item-border;
+  margin-bottom: 40px;
+  margin-right: 365px;
+
+}
+
+.column__subtitle {
+  font-weight: 400;
+  font-size: 1.125rem;
+  width: 1169px;
+}
+
+.column-info {
+  margin-top: 89px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: $column-info-color;
+}
+
+.input-registration {
+  border: none;
+  border-bottom:$border-bottom;
+  width: 571px;
+  outline: none;
+}
+
+.section {
+  padding-top: 100px;
+}
+
+.textarea {
+  position: relative;
+}
+
+.input-message {
+  position: absolute;
+  left: 580px;
+  top: -166px;
+  border: none;
+  border-bottom: $border-bottom;
+  width: 100%;
+  max-width: 596px;
+  resize: none;
+  outline: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 0, 875rem;
+}

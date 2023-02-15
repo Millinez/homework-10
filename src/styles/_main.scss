@@ -1,0 +1,153 @@
+$background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(/src/img/image.png);
+$color-text: #fff;
+$border: 1px solid #fff;
+$backroung-color: #fff;
+$col-registration__title-color: #333;
+$col-registration__title-size: 24px;
+$b-color:#ec7979;
+$input-hr-color:#bdbdbd;
+$background-button-color:#ec7979;
+$border-button-color:  1px solid #ec7979;
+$border-bottom:2px solid #bdbdbd;
+
+.main {
+  max-width: 1510px;
+  max-height: 1026px;
+  margin-top: -76px;
+  background: $background;
+}
+
+.section {
+  width: 1170px;
+  height: 1026px;
+  position: relative;
+}
+
+
+.col__info {
+  width: 670px;
+  height: 168px;
+  position: relative;
+  margin-left: 170px;
+}
+
+.col_img {
+  width: 30%;
+  height: 20%;
+  margin-left: 170px;
+  margin-top: 120px;
+}
+
+.col_text {
+  font-family: "Raleway", sans-serif;
+  color: $color-text;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.line {
+  width: 170px;
+  position: absolute;
+  left: 3px;
+}
+
+.col_subtext {
+  font-family: "Raleway", sans-serif;
+  color: $color-text;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 42px;
+  width: 270px;
+  height: 42px;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding-top: 18px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: $color-text;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 70px;
+  width: 270px;
+  height: 58px;
+}
+
+.col-registration {
+  width: 470px;
+  height: 450px;
+  border: $border;
+  position: absolute;
+  left: 870px;
+  top: 283px;
+  border-radius: 10px;
+  background-color: $backroung-color;
+  font-family: "Open Sans", sans-serif;
+}
+
+.col-registration__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: $col-registration__title-size;
+  color: $col-registration__title-color;
+}
+
+b {
+  color: $b-color;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  color: $input-hr-color;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 370px;
+  height: 38px;
+}
+
+.info-registration {
+  border: none;
+  border-bottom:$border-bottom;
+  width: 370px;
+  outline: none;
+}
+
+.input_hr {
+  width: 370px;
+  color: $input-hr-color;
+  margin-top: 16px;
+}
+
+.row-registartion {
+  display: flex;
+  align-items: center;
+}
+
+.row-registration {
+  margin-top: 48px;
+  display: flex;
+  width: 470px;
+  height: 450px;
+}
+
+  .button-get {
+  border-radius: 0 0 10px 10px;
+  border: $border-button-color;
+  background-color: $background-button-color;
+  color: $color-text;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 80px;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  margin-left: -50.7px;
+  width: 470px;
+  height: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+

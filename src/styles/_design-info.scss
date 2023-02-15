@@ -1,0 +1,52 @@
+$design-info__row-bcg:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+url(/src/img/city.png);
+$row_line-design-border:1px solid #fff;
+$color-text:#fff;
+$btn-last-border:1px solid #fff;
+
+.design-info {
+  margin-top: -100px;
+  margin-bottom: 100px;
+}
+
+.design-info__row {
+  background: $design-info__row-bcg;
+  max-width: 1510px;
+  max-height: 442px;
+  text-align: center;
+}
+
+.row_title-design {
+  padding-top: 40px;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.row_line-design {
+  width: 170px;
+  border: $row_line-design-border;
+  margin-top: 40px;
+}
+
+.row_subtitle-design {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: $color-text;
+  margin-top: 40px;
+}
+
+.btn-last {
+  width: 370px;
+  height: 58px;
+  margin-top: 73px;
+  margin-bottom: 5px;
+  background: transparent;
+  border: $btn-last-border;
+  color: $color-text;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}

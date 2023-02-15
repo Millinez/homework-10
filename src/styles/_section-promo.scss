@@ -1,0 +1,128 @@
+$promo-line-border:1px solid #ec7979;
+$promo-subtitle-color:#86878b;
+$column-border:1px solid #333333;
+$column-border-bottom:1px solid #f5f5f5;
+$column-bcg:#333333;
+$column-text-color:#f5f5f5;
+$list-item-border:2px solid #f5f5f5;
+$litem-item-color:#86878b;
+$block-item-bck-border-color:#e2e2e2;
+
+.section-promo {
+  padding: 70px;
+}
+
+.section-promo_container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.container_promo {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.promo-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.promo-line {
+  width: 170px;
+  margin-bottom: 40px;
+  border: $promo-line-border;
+}
+
+.promo-subtitle {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color:$promo-subtitle-color;
+}
+
+.awesome-info {
+  width: 370px;
+  height: 383px;
+}
+
+.awesome-info-cover {
+  text-align: center;
+}
+
+.awesome-info-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.awesome-info-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.promo-row {
+  display: flex;
+  margin-left: 20px;
+}
+
+.promo-col {
+  margin-right: 10px;
+}
+
+.blocks {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:$column-border;
+  border-bottom: $column-border-bottom;
+  padding-bottom: 5px;
+  width: 370px;
+  height: 60px;
+  background-color: $column-bcg;
+  color: $column-text-color;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.block-info {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.block-info-optima {
+  margin-top: -20px;
+  -webkit-box-shadow: -1px 6px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -1px 6px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: -1px 6px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: $list-item-border;
+  width: 370px;
+  height: 50px;
+  text-align: center;
+  color: $litem-item-color;
+  font-family: "Open Sans", sans-serif;
+}
+
+.price {
+  height: 100px;
+  font-size: 36px;
+}
+
+.row-customer__col {
+  padding-top: 70px;
+  width: 1170px;
+  height: 500px;
+}

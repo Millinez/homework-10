@@ -1,0 +1,41 @@
+$backroung-color:#000000;
+$color-text:#fff;
+
+.header {
+  max-width:1510px;
+  max-height: 76px;
+  background-color: $backroung-color;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar_logo {
+  margin-left: 115.28px;
+}
+
+.nav-menu {
+  margin-right: 170px;
+  margin-top: 0;
+  width: 570px;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-menu__item {
+  list-style-type: none;
+}
+
+.nav-menu_link {
+  text-decoration: none;
+  color:$color-text;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
